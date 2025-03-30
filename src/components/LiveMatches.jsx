@@ -77,16 +77,6 @@ const LiveMatches = () => {
                 const formattedTime = match.match_time || 'Time not available';
 
                 return (
-                  // <Box
-                  //   key={index}
-                  //   p={4}
-                  //   borderWidth="1px"
-                  //   borderRadius="lg"
-                  //   boxShadow="md"
-                  //   bg="white"
-                  //   _dark={{ bg: 'gray.700' }}
-                  // >
-
                   <Box
                     key={index}
                     p={4}
