@@ -20,7 +20,7 @@ import Loader from './Loader';
 import { toast } from 'react-hot-toast';
 
 const BetTickets = () => {
-  const [recordData, setRecordData] = useState(null);
+  const [recordData, setRecordData] = useState();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const dispatch = useDispatch(); // Here we are using the useDispatch hook to dispatch the addToCart action and calculatePrice action to the reducer function.

@@ -1,17 +1,3 @@
-// The provided code defines an object named `Betdata` that contains information about betting options for a sports event. It includes two main properties: `tWin` and `t1Overs`.
-
-// 1. `tWin`: It is an array of objects representing the winning options. Each object has the following properties:
-//    - `id`: Unique identifier for the option.
-//    - `betType`: Description of the bet type.
-//    - `odds`: Odds associated with the bet type.
-
-// 2. `t1Overs`: It is an array of objects representing specific overs for a team. Each object has the following properties:
-//    - `name`: Name of the over.
-//    - `options`: An array of objects representing betting options for that over. Each option object has the following properties:
-//      - `id`: Unique identifier for the option.
-//      - `betType`: Description of the bet type.
-//      - `odds`: Odds associated with the bet type.
-
 const BetData = {
   // tWin is an array of objects representing the winning options.
   tWin: [
